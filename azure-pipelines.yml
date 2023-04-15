@@ -17,6 +17,6 @@ steps:
 
 - task: PublishPipelineArtifact@1
   inputs:
-    targetPath: '$(Pipeline.Workspace)'
+    targetPath: '$(Pipeline.Workspace)/s/bin/Release/net6.0/'
     artifactType: 'pipeline'
-    artifactName: 'drop'
+    artifactName: 'Release'
